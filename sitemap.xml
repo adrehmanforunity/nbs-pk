@@ -2,7 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://nbs-pk.com/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://nbs-pk.com/about/</loc>
+  </url>
+  <url>
+    <loc>https://nbs-pk.com/platform/</loc>
+  </url>
+  <url>
+    <loc>https://nbs-pk.com/services/</loc>
   </url>
 </urlset>
