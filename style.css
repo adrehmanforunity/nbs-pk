@@ -159,7 +159,7 @@ button { font: inherit; }
   letter-spacing: .095em;
   text-transform: uppercase;
   font-weight: 700;
-  color: #667085;
+  color: var(--slate);
 }
 
 .eyebrow span {
@@ -260,7 +260,7 @@ button { font: inherit; }
 }
 
 .metric-row span {
-  color: #667085;
+  color: var(--slate);
   font-size: .74rem;
   line-height: 1.4;
   text-transform: uppercase;
@@ -292,11 +292,11 @@ button { font: inherit; }
   font-size: .72rem;
   letter-spacing: .06em;
   text-transform: uppercase;
-  color: #667085;
+  color: var(--slate);
 }
 
 .room-header b {
-  color: #55816e;
+  color: #426d5b;
   font-size: .7rem;
 }
 
@@ -386,7 +386,7 @@ button { font: inherit; }
 .signal strong,
 .signal span { display: block; }
 .signal strong { margin: 4px 0; font-size: .8rem; }
-.signal span { font-size: .68rem; color: #667085; }
+.signal span { font-size: .68rem; color: var(--slate); }
 
 .call { left: 2%; top: 14%; }
 .video { left: 35%; top: 5%; }
@@ -423,7 +423,7 @@ button { font: inherit; }
 
 .room-footer small {
   font-size: .62rem;
-  color: #667085;
+  color: var(--slate);
 }
 
 .proof {
@@ -595,7 +595,7 @@ button { font: inherit; }
 .capability-list i {
   justify-self: end;
   font-style: normal;
-  color: var(--blue);
+  color: #2048c8;
   font-size: .74rem;
   font-weight: 700;
 }
@@ -686,7 +686,7 @@ button { font: inherit; }
   background: var(--blue);
   border-color: var(--blue);
 }
-.middle small { color: #dfe9ff; }
+.middle small { color: #ffffff; }
 .base { background: #17243a; }
 
 .map-line {
@@ -949,6 +949,8 @@ footer {
   color: var(--white);
   padding: 88px 0 40px;
 }
+
+footer .eyebrow { color: #c8d7ee; }
 
 .footer-top {
   display: flex;
