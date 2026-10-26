@@ -42,6 +42,16 @@ button { font: inherit; }
 }
 .skip-link:focus { left: 12px; top: 12px; }
 
+[dir="rtl"] .skip-link {
+  right: -999px;
+  left: auto;
+}
+
+[dir="rtl"] .skip-link:focus {
+  right: 12px;
+  left: auto;
+}
+
 .site-header {
   position: sticky;
   top: 0;
@@ -1126,6 +1136,11 @@ footer .eyebrow { color: #c8d7ee; }
 
 .article-body ul {
   padding-left: 24px;
+}
+
+[dir="rtl"] .article-body ul {
+  padding-right: 24px;
+  padding-left: 0;
 }
 
 @media (max-width: 980px) {

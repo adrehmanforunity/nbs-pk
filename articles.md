@@ -4,8 +4,8 @@ Use this baseline for every new article published in the NBS Insights section. I
 
 ## Audience and purpose
 
-- Write for corporate readers in Pakistan, including business leaders and people responsible for technology, operations, customer experience, and digital transformation.
-- Publish in clear, professional English.
+- Write for corporate readers in Pakistan and, where relevant, Gulf markets, including business leaders and people responsible for technology, operations, customer experience, and digital transformation.
+- Publish in clear, professional English. For Arabic-language editions, use natural Modern Standard Arabic reviewed by a qualified Arabic editor; do not publish a raw machine translation as a finished article.
 - Give each article one primary reader need and a clear reason to exist.
 - Explain why the subject matters to organizations in Pakistan where relevant. Do not add local references just to insert keywords.
 - Keep Insights focused on business, technology, AI, customer experience, and related corporate topics. Do not chase unrelated trends.
@@ -47,6 +47,7 @@ This is an editorial starting point, not a guarantee of legal protection. Use a 
 ## Search, answer-engine, and sharing basics
 
 - Choose one primary topic based on reader intent. Use relevant wording naturally in the title, H1, introduction, and headings; do not stuff keywords or create awkward copy.
+- For a bilingual article, make each language version independently useful and idiomatic. Use the correct `lang` and text direction (`dir="rtl"` for Arabic), reciprocal `hreflang` links, and a self-referencing canonical on each version. Do not treat a translated page as automatically optimized for every Arabic-speaking market.
 - Write a distinct page title and meta description that accurately summarize the article and invite the right reader. Do not promise rankings or results.
 - Give every page one absolute, self-referencing canonical URL on `https://nbs-pk.com/`.
 - Add accurate Open Graph metadata for sharing. Use a suitable image only when available and ensure its alternative text describes the image.
@@ -59,6 +60,7 @@ This is an editorial starting point, not a guarantee of legal protection. Use a 
 - Publish each article at a stable, descriptive URL under `/insights/`, for example `/insights/descriptive-article-slug/`.
 - Use the existing site header, navigation, footer, responsive stylesheet, and accessible page patterns. Test the page through the local web server rather than a `file://` preview so root-relative assets load correctly.
 - Include a working route from the Insights hub and at least one relevant internal link from another suitable page or article. Provide a clear path back to the Insights hub.
+- Ensure each language version is discoverable from the site and offers a clear link to its equivalent version. Verify Arabic reading direction and review the page with a fluent Arabic reader.
 - Confirm the page is publicly accessible, returns a successful response, renders without broken assets, and is not unintentionally blocked or marked `noindex`.
 - Add the canonical article URL to the root `sitemap.xml`. Keep sitemap entries aligned with deployed, indexable canonical URLs; do not list redirecting or error URLs.
 - Check links, keyboard navigation, heading order, contrast, mobile layout, image alternatives, page title, metadata, structured data syntax, and spelling before publishing.
